@@ -15,7 +15,7 @@ print (mnist.data.shape)
 print (mnist.target.shape)
 
 #Echantillonnage
-sample = np.random.randint(70000, size=5000)
+sample = np.random.randint(70000, size=20000)
 data = mnist.data.iloc[sample]
 target = mnist.target.iloc[sample]
 
